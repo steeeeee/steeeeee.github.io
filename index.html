@@ -1,1 +1,36 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Little JS Form Validation</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/scripts.js"></script>
+</head>
+<body>
+	
+	<div id="flex-container">
+		<div id="contact">
+			<section id="cta-wrapper">
+				<p>Contact Us</p>
+				<p id="bottom">Contact Info</p>
+			</section>
+			<section id="form-wrapper">
+				<form action="validated.html" method="get">
+					<label for="first-name">Nome</label>
+					<input type="text" id="first-name" name="first-name" placeholder="John">
+					<label for="last-name">Cognome</label>
+					<input type="text" id="last-name" name="last-name" placeholder="Doe">
+					<label for="dob">Data di Nascita</label>
+					<input type="text" id="dob" name="dob" placeholder="DD / MM / YYYY">
+					<label for="license-plate">Targa</label>
+					<input type="text" id="lic-plate" name="lic-plate" placeholder="AAXXXAA">
+					<button id="btn-submit" type="submit">CONTINUE</button>
+					<button id="btn-reset" type="submit">RESET</button>
+				</form>
+			</section>
+		</div>
+	</div>
+</body>
+</html>
